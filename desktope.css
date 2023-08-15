@@ -1,0 +1,137 @@
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+
+    .nav-logo{
+        text-align: left;
+    }
+
+    .nav-heading h1{
+        text-align: left;
+    }
+    .nav-menu{
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .nav-menu a{
+      
+        margin: 10px;
+        background-color: transparent;
+
+    }
+    .nav-menu:hover{
+      border: none
+    }
+
+
+
+    /* profile start */
+    .top-pic{
+        position: absolute;
+        right: 60px;
+        top: 40px;
+        transition:width 2s, 2s;
+    }
+    .top-pic:hover{
+        transform: rotate(360deg);
+        width: 170px;
+    }
+
+    .profile-desk p{
+        color: gray;
+        margin: 0 auto 20px auto;
+        text-align: center;
+        width: 50%;
+    
+       }
+
+       .bottom-pic{
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        transition:width 2s, 2s;
+    
+    }
+    .bottom-pic:hover{
+        transform: rotate(-360deg);
+        width: 170px;
+    }
+
+    /* profile end */
+
+
+    /* about me start */
+
+    .aboutme-img {
+      margin-top: 100px;
+    }
+.aboutme-img img{
+    height: 200px;
+    width: 200px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+    /* about me end */
+
+
+
+    /* profesional experiens start */
+.profesional-experience{
+    padding: 1% 5%;
+    
+}
+
+    /* profesional experiens end */
+
+
+    /* <!-- contact me start --> */
+
+   .achievment{
+    padding-right: 50px;
+   }
+   .contact button{
+    width: 100px;
+   }
+
+
+   .contact-link{
+    position: relative;
+   }
+
+  
+    /* <!-- contact me end --> */
+
+
+    /* footer start */
+.footer-menu{
+    margin-top: 12px;
+
+}
+
+.footer-menu a {
+    display: inline;
+    margin: 10px;
+}
+
+
+.footer-desc{
+    margin-top: 12px;
+}
+
+
+    /* footer end */
